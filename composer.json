@@ -8,7 +8,6 @@
             "email": "bastien@eundigital.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {},
     "autoload": {
       "psr-4": {
