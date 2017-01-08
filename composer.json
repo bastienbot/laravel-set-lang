@@ -1,0 +1,19 @@
+{
+    "name": "bastienbot/laravel-set-lang",
+    "description": "Lib to detect and set languages easily for Laravel",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Bastien Botella",
+            "email": "bastien@eundigital.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+      "psr-4": {
+        "Bastienbot\\LaravelSetLang\\": "src/"
+      }
+    }
+
+}
