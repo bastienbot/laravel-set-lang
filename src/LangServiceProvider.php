@@ -58,5 +58,7 @@ class LangServiceProvider extends ServiceProvider
 
     public function register()
     {
+        include __DIR__.'/routes.php';
+        $this->app->make('Bastienbot\laravelsetlang\UserLangController');
     }
 }
