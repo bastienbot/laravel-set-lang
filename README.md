@@ -3,9 +3,8 @@
 # Infos
 This package is only compatible with Laravel 5.1+
 This package has two purposes : 
-* setting by **default** the language to the client browser language
-* providing routes and a service provider to set the user's language choice in a **cookie** and retrieve it on load
-Fallback language is english
+* Setting by **default** the language to the client browser language. Fallback language is english
+* Providing routes and a service provider to set the user's language choice in a **cookie** and retrieve it on load
 
 # Usage
 * Go to you Laravel project folder in your favorite terminal
