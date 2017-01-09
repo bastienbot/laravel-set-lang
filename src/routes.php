@@ -1,3 +1,4 @@
 <?php
-
-Route::get('lang/{lang}', 'UserLangController@setLang');
+Route::group(['namespace' => 'Bastienbot\LaravelSetLang'], function () {
+  Route::get('lang/{lang}', 'UserLangController@setLang');
+});

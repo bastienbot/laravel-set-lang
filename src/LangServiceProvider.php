@@ -47,18 +47,18 @@ class LangServiceProvider extends ServiceProvider
         if (!empty($lang)) {
             App::setLocale($lang);
         } else {
-            $this->setCookie();
+            // $this->setCookie();
         }
+        // dump($lang);
     }
 
     public function boot()
     {
+        include __DIR__.'/routes.php';
         $this->getCookie();
     }
 
     public function register()
     {
-        include __DIR__.'/routes.php';
-        $this->app->make('Bastienbot\laravelsetlang\UserLangController');
     }
 }
